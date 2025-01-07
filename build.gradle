@@ -19,6 +19,11 @@ configurations {
 	}
 }
 
+// Optional: Customize JAR name
+bootJar {
+	archiveFileName = 'accounts.jar'
+}
+
 repositories {
 	mavenCentral()
 }
